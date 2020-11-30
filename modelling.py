@@ -19,7 +19,6 @@ def model_data_to_weighted_dyadic_relationships(vertices, data):
                 total_deviation.append(deviation)
             avg_deviation = average(total_deviation)
             average_deviation_of_vertex.update({person: avg_deviation})
-        print(average_deviation_of_vertex)
 
         risk_mapping = {}
         for person in data:
